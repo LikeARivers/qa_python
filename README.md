@@ -1,1 +1,26 @@
 # qa_python
+добавлены тесты
+
+test_set_book_genre_dont_set_book_with_new_genre который проверяет
+возможность добавления в словарь books_genre только книги жанра из списка genre
+
+test_get_book_genre_get_two_books который проверяет возможность
+установить книге жанр
+
+test_get_books_with_specific_genre_get_two_books который проверяет
+возможность вывода списка книг с определенным жанром
+
+test_get_books_genre_get_two_books который проверяет возможность 
+получения содержимого словаря books_genre
+
+test_get_books_for_children_get_two_books который проверяет возможность
+получения списка книг, подходящих детям
+
+test_add_book_in_favorites_add_one_book который проверяет возможность
+добавить книгу в избранное
+
+test_delete_book_from_favorites_delete_one_book который проверяет возможность
+удаления добавленной книги из избранного
+
+test_get_list_of_favorites_books_get_one_book который прроверяет возможность
+получения списка книг, находящихся в избранном
